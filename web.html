@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 2em 0;
+            background-color: white;
+            margin: 1em 0;
+        }
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+        .skills {
+            display: flex;
+            justify-content: space-between;
+        }
+        .skill {
+            width: 30%;
+            background-color: #e4e4e4;
+            padding: 1em;
+            margin: 1em 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 0.5em;
+            margin: 0.5em 0;
+        }
+        .contact-form button {
+            padding: 0.5em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Sales Professional and Aspiring Sales Trainer/VP</p>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a 23-year-old sales professional with one year of experience in sales. I have a strong skill set in sales, leadership, Canva designing, and stage skills. I am confident in my abilities and am aiming to become a sales trainer or VP in sales soon. I am always ready to learn more and take on new challenges.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Sales</h3>
+                    <p>One year of experience in sales with proven results and a confident approach.</p>
+                </div>
+                <div class="skill">
+                    <h3>Leadership</h3>
+                    <p>Strong leadership skills developed through various roles and responsibilities.</p>
+                </div>
+                <div class="skill">
+                    <h3>Canva Designing</h3>
+                    <p>Proficient in creating designs using Canva for various purposes.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
